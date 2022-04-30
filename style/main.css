@@ -1,0 +1,65 @@
+:root {
+  --vermelha: #E50914;
+  --preta: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--preta);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: var(--vermelha);
+  font-family: 'Martel Sans', 'Arial Black', Times;
+  font-size: 40px;
+  margin-left: 15px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #AAA;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #FFF;
+}
+
+/* Filme Principal */
+
+.filme-principal {
+  align-items: flex-start;
+  background: linear-gradient(rgba(0,0,0, .50),rgba(0,0,0, .50)), url('/img/3AnunciosParaUmCrime.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  height: 400px;
+  justify-content: center;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.descricao {
+  margin: 0px 20px 90px 20px;
+}
+
+.buttons {
+  margin-left: 10px;
+}
